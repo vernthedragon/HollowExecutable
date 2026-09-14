@@ -34,7 +34,7 @@ This implementation performs **same-process hollowing** — the payload replaces
 
 ## PE File Structure Primer
 
-Understanding process hollowing requires understanding the **Portable Executable (PE)** format, the binary format used by Windows executables (`.exe`) and libraries (`.dll`).
+Understanding process hollowing requires comprehension of the **Portable Executable (PE)** format, the binary format used by Windows executables (`.exe`) and libraries (`.dll`).
 
 ### DOS Header (`IMAGE_DOS_HEADER`)
 
@@ -240,7 +240,6 @@ HollowExecutable/
 
 ## Further Reading
 
-- *"Understanding Windows Process Hollowing"* — various write-ups on [malware.news](https://malware.news) and the [OALabs blog](https://oalabs.openanalysis.net)
 - Microsoft PE format specification: [docs.microsoft.com/en-us/windows/win32/debug/pe-format](https://docs.microsoft.com/en-us/windows/win32/debug/pe-format)
 - *"The Art of Memory Forensics"* by Ligh, Case, Levy, Walters (Wiley, 2014)
-- MITRE ATT&CK technique T1055.012 — Process Hollowing: [attack.mitre.org/techniques/T1055/012](https://attack.mitre.org/techniques/T1055/012/)
+- MITRE ATTACK technique T1055.012 — Process Hollowing: [attack.mitre.org/techniques/T1055/012](https://attack.mitre.org/techniques/T1055/012/)
