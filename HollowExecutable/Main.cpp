@@ -161,7 +161,7 @@ bool LaunchExecutable(unsigned char* ByteArray)
 		if (NTHeaders == NULL) {
 			MessageBoxW(
 				NULL,
-				L"An unexpected error has occurred. #2",
+				L"An unexpected error has occurred. #1",
 				L"Launch error",
 				MB_OK | MB_ICONERROR
 			);
@@ -186,7 +186,7 @@ bool LaunchExecutable(unsigned char* ByteArray)
 		{
 			MessageBoxW(
 				NULL,
-				L"An unexpected error has occurred. #3",
+				L"An unexpected error has occurred. #2",
 				L"Launch error",
 				MB_OK | MB_ICONERROR
 			);
