@@ -9,7 +9,7 @@ An educational implementation of **process hollowing** (also called *PE injectio
 ## Table of Contents
 
 1. [What is Process Hollowing?](#what-is-process-hollowing)
-2. [PE File Structure Primer](#pe-file-structure-primer)
+2. [PE File Structure](#pe-file-structure)
 3. [How This Implementation Works](#how-this-implementation-works)
 4. [Detection by AV/EDR Products](#detection-by-averdr-products)
 5. [Project Structure](#project-structure)
@@ -32,7 +32,7 @@ This implementation performs **same-process hollowing** — the payload replaces
 
 ---
 
-## PE File Structure Primer
+## PE File Structure
 
 Understanding process hollowing requires comprehension of the **Portable Executable (PE)** format, the binary format used by Windows executables (`.exe`) and libraries (`.dll`).
 
